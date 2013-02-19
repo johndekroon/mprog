@@ -1,0 +1,11 @@
+<h1><%= @heading %></h1>
+<%
+test = {'foo' => 'test 1', 'bar' => 'test 2'}
+test2 = {}
+test2['bla'] = "foo"
+%>
+<%= test['foo'] %>
+<%= test2['bla'] %>
+ <%= @input %>
+<%= render :partial => 'test' %>
+<%= link_to "Enter the blog application", posts_path %>
